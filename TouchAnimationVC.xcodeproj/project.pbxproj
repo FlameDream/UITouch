@@ -13,6 +13,7 @@
 		AC0AFCE0215F4C2000613AF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC0AFCDF215F4C2000613AF3 /* Assets.xcassets */; };
 		AC0AFCE3215F4C2000613AF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0AFCE1215F4C2000613AF3 /* LaunchScreen.storyboard */; };
 		AC0AFCE6215F4C2000613AF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC0AFCE5215F4C2000613AF3 /* main.m */; };
+		AC1567CC2160632A00798E92 /* TouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1567CB2160632A00798E92 /* TouchView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		AC0AFCE2215F4C2000613AF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC0AFCE4215F4C2000613AF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC0AFCE5215F4C2000613AF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC1567CA2160632A00798E92 /* TouchView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchView.h; sourceTree = "<group>"; };
+		AC1567CB2160632A00798E92 /* TouchView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				AC0AFCD7215F4C1E00613AF3 /* AppDelegate.m */,
 				AC0AFCD9215F4C1E00613AF3 /* ViewController.h */,
 				AC0AFCDA215F4C1E00613AF3 /* ViewController.m */,
+				AC1567CA2160632A00798E92 /* TouchView.h */,
+				AC1567CB2160632A00798E92 /* TouchView.m */,
 				AC0AFCDC215F4C1E00613AF3 /* Main.storyboard */,
 				AC0AFCDF215F4C2000613AF3 /* Assets.xcassets */,
 				AC0AFCE1215F4C2000613AF3 /* LaunchScreen.storyboard */,
@@ -141,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC1567CC2160632A00798E92 /* TouchView.m in Sources */,
 				AC0AFCDB215F4C1E00613AF3 /* ViewController.m in Sources */,
 				AC0AFCE6215F4C2000613AF3 /* main.m in Sources */,
 				AC0AFCD8215F4C1E00613AF3 /* AppDelegate.m in Sources */,
@@ -288,6 +294,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PN99H8F5HQ;
 				INFOPLIST_FILE = TouchAnimationVC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PN99H8F5HQ;
 				INFOPLIST_FILE = TouchAnimationVC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
